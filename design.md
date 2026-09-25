@@ -17,6 +17,10 @@ src/
 │
 ├── components/
 │   ├── Header/
+│        └──Header.jsx
+│        └──Navbar.jsx
+│        └──Herosection.jsx
+│
 │   ├── Footer/
 │   ├── Slider/
 │       └──Cate_Slider.jsx
