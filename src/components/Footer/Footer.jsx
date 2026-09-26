@@ -1,9 +1,8 @@
 
-
 export const Footer = () => {
   return (
      <main  className={`w-full   flex flex-col items-center outline `}>
-        <footer className="w-full  max-w-[1400px] h-full mx-auto border px-4">
+      <footer className="w-full  max-w-[1530px] h-full mx-auto border px-10">
 
       <div className="w-full max-w-[1400px] mx-auto  py-10 flex flex-col md:flex-row gap-8">
         <div className="w-full md:w-1/3">
