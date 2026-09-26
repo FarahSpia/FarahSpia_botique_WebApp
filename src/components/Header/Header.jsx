@@ -1,13 +1,10 @@
 // Header.jsx
-import React from "react";
 import { Navbar } from "./Navbar";
-import { Herosection } from "./Herosection";
 
 export const Header = () => {
   return (
-    <header className="w-full border-2 border-green-500">
+    <header  className={`w-full h-20 flex flex-col items-center outline`}>
       <Navbar />
-      <Herosection />
     </header>
   );
 };

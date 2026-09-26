@@ -1,9 +1,11 @@
-import React from "react";
+
 
 export const Footer = () => {
   return (
-    <footer className="w-full border-t mt-20 flex-shrink-0">
-      <div className="w-full max-w-[1400px] mx-auto px-4 py-10 flex flex-col md:flex-row gap-8">
+     <main  className={`w-full   flex flex-col items-center outline `}>
+        <footer className="w-full  max-w-[1400px] h-full mx-auto border px-4">
+
+      <div className="w-full max-w-[1400px] mx-auto  py-10 flex flex-col md:flex-row gap-8">
         <div className="w-full md:w-1/3">
            <ul className="flex flex-col space-y-2 text-sm">
             <li>Home</li>
@@ -29,6 +31,8 @@ export const Footer = () => {
       <div className="border-t py-4 flex items-center justify-center text-xs">
         Test
       </div>
+
     </footer>
+    </main>
   );
 };
