@@ -1,5 +1,16 @@
 @import "tailwindcss";
+@font-face {
+    font-family: vazir;
+    src: url(../assets/font/vazir-font-v16.1.0/Vazir.woff2);
+}
+@font-face {
+    font-family: iranSans;
+    src: url(../assets/font/IranSans.ttf);
+}
+
+
 
 body{
     margin: 0;
+    font-family: vazir;
 }
