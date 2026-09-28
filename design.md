@@ -71,3 +71,4 @@ src/
 `tailwindcss`
 `react-router-dom`
 `axios`
+`react-icons`
