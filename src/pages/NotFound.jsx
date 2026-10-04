@@ -118,6 +118,7 @@ export const NotFound = () => {
             </p>
           </div>
 
+          <Link to={"/"}>
           <button
             className="
               mt-4
@@ -144,10 +145,9 @@ export const NotFound = () => {
               cursor-pointer
             "
           >
-            <Link to="/">
             بازگشت به صفحه اصلی
-            </Link>
           </button>
+          </Link>
         </div>
       </div>
     </main>
